@@ -1,0 +1,11 @@
+ol, ul {
+    list-style: none outside none;
+}
+.my-title{
+    color: #060055;
+
+}
+
+.color-primary-text{
+    color: #060055;
+}
