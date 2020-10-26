@@ -1,5 +1,15 @@
 .unimed-item{
+    margin-top: 10px;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    min-height: 80px;
     border-bottom: 1px solid #707070;
+    transition: .1s;
+}
+.unimed-item:hover{
+    box-shadow:  3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .18s;
 }
 .ml{
     margin-left: 10px;
@@ -16,3 +26,13 @@
 .border-none{
     border: none;
 }
+/* a{
+    outline: none !important;
+    border: none !important;
+} */
+a:active, a:focus {
+    outline: 0 !important;
+    border: none !important;
+    text-decoration: none !important;
+  }
+  

@@ -6,14 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a, :link:focus, :visited:focus{
-  outline: none important;
-  -moz-outline: none important; 
-  text-decoration:none important;
-  border:0 important;
-  outline:none important; 
+*{
+  color: #838080;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -9,3 +9,7 @@ ol, ul {
 .color-primary-text{
     color: #060055;
 }
+.container-unimeds{
+    width: 92vw;
+    margin: 0 auto 0 auto;
+}
