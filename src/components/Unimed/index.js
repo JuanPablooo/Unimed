@@ -14,12 +14,12 @@ const Unimed = ({ unimed }) => {
     <>
     <li className="unimed-item">
         <div>
-        <h3><Link to={site} onClick={()=>openTab(site)}  className="my-title" > {nmUnimed} </Link></h3>
+        <h3><div  onClick={()=>openTab(site)}  className="my-title" > {nmUnimed} </div></h3>
         </div>
         <div>
-            <Link className="ml mr info-unimed border-none" to={site} onClick={()=>openTab(site)} > <img alt="site" className="mr-min" src={iconWolrd} /> {site} </Link> |
-            <div className="info-unimed mr"> <img src={iconTel} alt="telefone"/> {telefone} </div> |
-            <img className="mr ml" src={iconLocale} alt="local"/> <>{endereco}  {cidade} {uf}</> 
+            <Link  style={{ textDecoration: 'none' }} className="ml mr info-unimed border-none" to={site} onClick={()=>openTab(site)} > <img alt="site" className="mr-min" src={iconWolrd} /> {site} </Link> |
+            <div className="info-unimed  ml mr"> <img src={iconTel} alt="telefone" className="mr-min" /> {telefone} </div> |
+            <img className="mr-min ml" src={iconLocale} alt="local"/> <>{endereco}  {cidade} {uf}</> 
         </div>
     </li>
     </>

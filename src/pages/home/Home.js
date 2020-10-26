@@ -32,14 +32,14 @@ const Home = () => {
     }
 
     return (
-        <>
+        <div className="container-unimeds">
             <Search searcherOnChange={ searchUnimed }/>
             <ul>
                 {
                     findedUnimeds.map(unimed => <UnimedView key={unimed.cdUnimed} unimed={ unimed } /> )
                 }
             </ul>
-        </>
+        </div>
     );
 }
 
