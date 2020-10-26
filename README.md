@@ -5,11 +5,11 @@
 ### A simple project that user can see and find all hospital of unimed. 
 
 <div align="center">
-  <img src="./src/images/hospitals-preview.gif" width="350" title="preview">
+  <img src="./src/images/hospitals-preview.gif" width="800"  title="preview">
 </div>
 
 ## Available Scripts
-After downloanded project find project directory, you can run:
+After downloaded project find project directory, you can run:
 ### `npm install`
 
 ### `npm start`
