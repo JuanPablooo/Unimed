@@ -1,0 +1,10 @@
+.input-search{
+    margin: 20px 0 20px 80px;
+    background: url(../../images/search.svg) no-repeat scroll 7px 7px;
+    padding-left: 30px;
+    height: 25px;
+    width: 250px;
+    border-radius: 4px;
+    border-color: #060055;
+    outline-color: #58568b;
+}
