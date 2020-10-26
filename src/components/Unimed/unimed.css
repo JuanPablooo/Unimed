@@ -1,0 +1,18 @@
+.unimed-item{
+    border-bottom: 1px solid #707070;
+}
+.ml{
+    margin-left: 10px;
+}
+.mr{
+    margin-right: 10px;
+}
+.mr-min{
+    margin-right: 5px;
+}
+.info-unimed{
+    display: inline;
+}
+.border-none{
+    border: none;
+}
